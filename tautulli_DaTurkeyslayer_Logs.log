@@ -1,0 +1,400 @@
+2024-01-18 14:57:11 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-18 14:57:11 - INFO    :: MainThread : [Bundle] Windows 10 (10.0.19045)
+2024-01-18 14:57:11 - INFO    :: MainThread : America/Chicago (UTC-0600)
+2024-01-18 14:57:11 - INFO    :: MainThread : Language en_US / Encoding cp1252
+2024-01-18 14:57:11 - INFO    :: MainThread : Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2024-01-18 14:57:11 - INFO    :: MainThread : SQLite 3.37.2
+2024-01-18 14:57:11 - INFO    :: MainThread : Program Dir: C:\Program Files\Tautulli
+2024-01-18 14:57:11 - INFO    :: MainThread : Config File: C:\Users\Dale & David\AppData\Local\Tautulli\config.ini
+2024-01-18 14:57:11 - INFO    :: MainThread : Database File: C:\Users\Dale & David\AppData\Local\Tautulli\tautulli.db
+2024-01-18 14:57:11 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-18 14:57:11 - DEBUG   :: MainThread : Altering database. Updating database table notify_log.
+2024-01-18 14:57:11 - DEBUG   :: MainThread : User 'Local' does not exist. Adding user.
+2024-01-18 14:57:12 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-18 14:57:12 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2024-01-18 14:57:12 - DEBUG   :: MainThread : Generating UUID...
+2024-01-18 14:57:12 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2024-01-18 14:57:12 - DEBUG   :: MainThread : Generating API key...
+2024-01-18 14:57:12 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2024-01-18 14:57:12 - DEBUG   :: MainThread : Generating JWT secret...
+2024-01-18 14:57:12 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2024-01-18 14:57:12 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2024-01-18 14:57:12 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2024-01-18 14:57:12 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-18 14:57:12 - INFO    :: MainThread : Tautulli is up to date
+2024-01-18 14:57:12 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-18 14:57:12 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-18 14:57:13 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-18 14:57:13 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-18 14:57:13 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-18 14:57:13 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-18 14:57:13 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-18 14:57:13 - INFO    :: MainThread : [18/Jan/2024:14:57:13] ENGINE Serving on http://0.0.0.0:8181
+2024-01-18 14:57:13 - INFO    :: MainThread : Launching Windows system tray icon.
+2024-01-18 14:57:13 - INFO    :: MainThread : Added Tautulli to Windows system startup registry key.
+2024-01-18 14:57:14 - INFO    :: MainThread : Tautulli is ready!
+2024-01-18 14:57:59 - INFO    :: CP Server Thread-8 : Tautulli Config :: Writing configuration to file
+2024-01-18 14:58:59 - INFO    :: CP Server Thread-6 : Tautulli Config :: Writing configuration to file
+2024-01-18 14:58:59 - INFO    :: CP Server Thread-6 : Added Tautulli to Windows system startup registry key.
+2024-01-18 14:58:59 - INFO    :: CP Server Thread-6 : Tautulli PlexTV :: Requesting resources for server...
+2024-01-18 14:58:59 - INFO    :: CP Server Thread-6 : Tautulli PlexTV :: Pinging Plex.tv to refresh token.
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli Config :: Writing configuration to file
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli PlexTV :: Using user-defined URL.
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli PlexTV :: Selected server: Poynter Plex (http://192.168.4.224:32400) (Windows - Version 1.32.8.7639-fb6452ebf)
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli Config :: Writing configuration to file
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli WebStart :: Restarting Tautulli web server...
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli WebStart :: Stopping Tautulli web server...
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : [18/Jan/2024:14:59:00] ENGINE Bus STOPPING
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : [18/Jan/2024:14:59:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : [18/Jan/2024:14:59:00] ENGINE Bus STOPPED
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : [18/Jan/2024:14:59:00] ENGINE Bus EXITING
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : [18/Jan/2024:14:59:00] ENGINE Bus EXITED
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli WebStart :: Web server authentication is enabled: Tautulli admin (username is 'DaTurkeyslayer') and Plex admin.
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-18 14:59:00 - INFO    :: CP Server Thread-6 : [18/Jan/2024:14:59:00] ENGINE Serving on http://0.0.0.0:8181
+2024-01-18 14:59:01 - DEBUG   :: CP Server Thread-6 : Tautulli Monitor :: Checking for active streams.
+2024-01-18 14:59:01 - INFO    :: Thread-27 : Tautulli WebSocket :: Opening websocket.
+2024-01-18 14:59:01 - INFO    :: CP Server Thread-6 : Scheduled background task: Check GitHub for updates
+2024-01-18 14:59:01 - INFO    :: CP Server Thread-6 : Scheduled background task: Optimize Tautulli database
+2024-01-18 14:59:01 - INFO    :: CP Server Thread-6 : Scheduled background task: Backup Tautulli database
+2024-01-18 14:59:01 - INFO    :: CP Server Thread-6 : Scheduled background task: Backup Tautulli config
+2024-01-18 14:59:01 - INFO    :: CP Server Thread-6 : Scheduled background task: Check for server response
+2024-01-18 14:59:01 - INFO    :: Thread-28 : Tautulli Libraries :: Requesting libraries list refresh...
+2024-01-18 14:59:01 - INFO    :: Thread-29 : Tautulli Users :: Requesting users list refresh...
+2024-01-18 14:59:01 - INFO    :: Thread-27 : Tautulli WebSocket :: Ready
+2024-01-18 14:59:01 - INFO    :: Thread-27 : Scheduled background task: Refresh Plex server URLs
+2024-01-18 14:59:01 - INFO    :: Thread-27 : Scheduled background task: Refresh users list
+2024-01-18 14:59:01 - INFO    :: Thread-27 : Scheduled background task: Refresh libraries list
+2024-01-18 14:59:01 - INFO    :: Thread-27 : Removed background task: Check for server response
+2024-01-18 14:59:01 - DEBUG   :: Thread-28 : Tautulli Pmsconnect :: No library data.
+2024-01-18 14:59:01 - INFO    :: Thread-28 : Tautulli Config :: Writing configuration to file
+2024-01-18 14:59:01 - INFO    :: Thread-28 : Tautulli Libraries :: Libraries list refreshed.
+2024-01-18 14:59:02 - INFO    :: Thread-29 : Tautulli Users :: Users list refreshed.
+2024-01-18 14:59:18 - DEBUG   :: CP Server Thread-24 : Tautulli WebAuth :: Admin user 'Da********r' logged into Tautulli using Plex OAuth login.
+2024-01-18 14:59:19 - DEBUG   :: CP Server Thread-18 : Requesting URL via GET method: https://tautulli.com/anonymizer.txt
+2024-01-18 14:59:20 - INFO    :: CP Server Thread-18 : Tautulli Config :: Writing configuration to file
+2024-01-18 14:59:21 - WARNING :: CP Server Thread-6 : Failed to get image /library/metadata/12253/thumb, falling back to poster.
+2024-01-18 14:59:43 - WARNING :: CP Server Thread-23 : Failed to get image /library/metadata/12253/thumb, falling back to poster.
+2024-01-18 15:00:10 - INFO    :: CP Server Thread-20 : Tautulli Config :: Writing configuration to file
+2024-01-18 15:03:19 - INFO    :: CP Server Thread-25 : Tautulli Notifiers :: Added new notification agent: Script (notifier_id 1).
+2024-01-18 15:12:27 - INFO    :: CP Server Thread-21 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 15:13:17 - INFO    :: CP Server Thread-25 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 15:16:18 - INFO    :: CP Server Thread-19 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 15:16:18 - DEBUG   :: CP Server Thread-26 : Sending test Script notification.
+2024-01-18 15:16:18 - DEBUG   :: CP Server Thread-26 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 15:16:18 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 15:16:18 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added.py, arguments: [], action: test
+2024-01-18 15:16:18 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added.py']
+2024-01-18 15:16:18 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 15:16:18 - DEBUG   :: Thread-30 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 15:16:18 - ERROR   :: Thread-30 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 15:16:18 - INFO    :: Thread-30 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 15:16:21 - INFO    :: CP Server Thread-18 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 15:26:13 - INFO    :: CP Server Thread-24 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 15:28:20 - INFO    :: CP Server Thread-21 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 15:28:44 - INFO    :: CP Server Thread-24 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 15:29:10 - INFO    :: CP Server Thread-22 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 15:29:10 - DEBUG   :: CP Server Thread-6 : Sending test Script notification.
+2024-01-18 15:29:10 - DEBUG   :: CP Server Thread-6 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 15:29:10 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 15:29:10 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added.py, arguments: ['23215,', 'Pizza'], action: test
+2024-01-18 15:29:10 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added.py', '23215,', 'Pizza']
+2024-01-18 15:29:10 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 15:29:10 - DEBUG   :: Thread-34 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 15:29:10 - ERROR   :: Thread-34 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 15:29:10 - INFO    :: Thread-34 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 15:58:03 - INFO    :: CP Server Thread-19 : Tautulli Config :: Writing configuration to file
+2024-01-18 16:11:35 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item '' (12444) added to recently added queue.
+2024-01-18 16:11:36 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item 'The Inn of the Sixth Happiness (1959)' (12444) done processing metadata.
+2024-01-18 16:16:35 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Starting callback for library item '' (12444) after delay.
+2024-01-18 16:16:35 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Library item 'The Inn of the Sixth Happiness' (12444) added to Plex.
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'on_created'.
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Checking global notification conditions.
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Global notification conditions evaluated to 'True'.
+2024-01-18 16:16:35 - DEBUG   :: ThreadPoolExecutor-0_0 : Added 1 items to the recently_added database table.
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Checking custom notification conditions for notifier_id 1.
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: {1} media_type | is | 'movie' or 'tv show' > 'movie' > True
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Condition logic [blank]: {1} > True
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Custom conditions evaluated to 'True'. Conditions: [True].
+2024-01-18 16:16:35 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added.py, arguments: ['rating_key,', 'label'], action: created
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added.py', 'rating_key,', 'label']
+2024-01-18 16:16:35 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 16:16:35 - DEBUG   :: Thread-38 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 16:16:35 - ERROR   :: Thread-38 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 16:16:35 - INFO    :: Thread-38 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 16:55:59 - INFO    :: CP Server Thread-21 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 16:57:54 - INFO    :: CP Server Thread-20 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 16:58:32 - INFO    :: CP Server Thread-6 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 16:59:23 - INFO    :: CP Server Thread-26 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 16:59:23 - DEBUG   :: CP Server Thread-19 : Sending test Script notification.
+2024-01-18 16:59:23 - DEBUG   :: CP Server Thread-19 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 16:59:23 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 16:59:23 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '1234', '--names', 'David'], action: test
+2024-01-18 16:59:23 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '1234', '--names', 'David']
+2024-01-18 16:59:23 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 16:59:23 - DEBUG   :: Thread-42 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 16:59:23 - ERROR   :: Thread-42 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 16:59:23 - INFO    :: Thread-42 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 16:59:27 - INFO    :: CP Server Thread-21 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 16:59:51 - INFO    :: CP Server Thread-23 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 16:59:51 - DEBUG   :: CP Server Thread-20 : Sending test Script notification.
+2024-01-18 16:59:51 - DEBUG   :: CP Server Thread-20 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 16:59:51 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 16:59:51 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['1234', ',', 'David'], action: test
+2024-01-18 16:59:51 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '1234', ',', 'David']
+2024-01-18 16:59:51 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 16:59:51 - DEBUG   :: Thread-46 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 16:59:51 - ERROR   :: Thread-46 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 16:59:51 - INFO    :: Thread-46 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 17:00:00 - INFO    :: CP Server Thread-24 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:10:32 - INFO    :: CP Server Thread-19 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:10:42 - INFO    :: CP Server Thread-22 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:11:11 - WARNING :: CP Server Thread-22 : Failed to get image /library/metadata/12253/thumb, falling back to poster.
+2024-01-18 17:12:46 - INFO    :: CP Server Thread-22 : Tautulli Config :: Writing configuration to file
+2024-01-18 17:18:05 - INFO    :: CP Server Thread-18 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:19:54 - INFO    :: CP Server Thread-6 : Tautulli Config :: Writing configuration to file
+2024-01-18 17:20:04 - WARNING :: CP Server Thread-26 : Unable to retrieve data for library_recently_watched.
+2024-01-18 17:20:04 - WARNING :: CP Server Thread-23 : Unable to retrieve data for library_user_stats.
+2024-01-18 17:20:10 - WARNING :: CP Server Thread-26 : Unable to retrieve data for item_user_stats.
+2024-01-18 17:21:42 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item '' (12445) added to recently added queue.
+2024-01-18 17:21:43 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item 'Oppenheimer (2023)' (12445) done processing metadata.
+2024-01-18 17:25:46 - INFO    :: CP Server Thread-19 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:25:46 - DEBUG   :: CP Server Thread-20 : Sending test Script notification.
+2024-01-18 17:25:46 - DEBUG   :: CP Server Thread-20 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 17:25:46 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:25:46 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '28546', '--namesList', 'David,Christian,Dale,Other'], action: test
+2024-01-18 17:25:46 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '28546', '--namesList', 'David,Christian,Dale,Other']
+2024-01-18 17:25:46 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 17:25:46 - DEBUG   :: Thread-50 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 17:25:46 - ERROR   :: Thread-50 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 17:25:46 - INFO    :: Thread-50 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 17:25:57 - INFO    :: CP Server Thread-23 : Tautulli Config :: Writing configuration to file
+2024-01-18 17:26:42 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Starting callback for library item '' (12445) after delay.
+2024-01-18 17:26:42 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Library item 'Oppenheimer' (12445) added to Plex.
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'on_created'.
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Checking global notification conditions.
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Global notification conditions evaluated to 'True'.
+2024-01-18 17:26:42 - DEBUG   :: ThreadPoolExecutor-0_0 : Added 1 items to the recently_added database table.
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Checking custom notification conditions for notifier_id 1.
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: {1} media_type | is | 'movie' or 'tv show' > 'movie' > True
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Condition logic [blank]: {1} > True
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Custom conditions evaluated to 'True'. Conditions: [True].
+2024-01-18 17:26:42 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '12445', '--namesList', 'David,Christian,Dale,Other'], action: created
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '12445', '--namesList', 'David,Christian,Dale,Other']
+2024-01-18 17:26:42 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 17:26:42 - DEBUG   :: Thread-54 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 17:26:42 - ERROR   :: Thread-54 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 17:26:42 - INFO    :: Thread-54 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 17:28:34 - INFO    :: CP Server Thread-26 : Tautulli Config :: Writing configuration to file
+2024-01-18 17:28:45 - INFO    :: CP Server Thread-19 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:28:45 - DEBUG   :: CP Server Thread-6 : Sending test Script notification.
+2024-01-18 17:28:45 - DEBUG   :: CP Server Thread-6 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 17:28:45 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:28:45 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '28546', '--namesList', 'David,Christian,Dale,Other'], action: test
+2024-01-18 17:28:45 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '28546', '--namesList', 'David,Christian,Dale,Other']
+2024-01-18 17:28:45 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 17:28:45 - DEBUG   :: Thread-58 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 17:28:45 - ERROR   :: Thread-58 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 17:28:45 - INFO    :: Thread-58 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 17:30:37 - INFO    :: CP Server Thread-6 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:32:48 - INFO    :: CP Server Thread-24 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:32:52 - INFO    :: CP Server Thread-22 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:32:59 - INFO    :: CP Server Thread-23 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:32:59 - DEBUG   :: CP Server Thread-19 : Sending test Script notification.
+2024-01-18 17:32:59 - DEBUG   :: CP Server Thread-19 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 17:32:59 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:32:59 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: , arguments: [], action: test
+2024-01-18 17:32:59 - DEBUG   :: Thread-2 : Tautulli Notifiers :: No script selected for action 'test', exiting...
+2024-01-18 17:33:00 - INFO    :: CP Server Thread-6 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:33:01 - INFO    :: CP Server Thread-24 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:33:04 - INFO    :: CP Server Thread-22 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:33:18 - INFO    :: CP Server Thread-6 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:34:23 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item '' (12462) added to recently added queue.
+2024-01-18 17:34:24 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item 'Puss in Boots: The Last Wish (2022)' (12462) done processing metadata.
+2024-01-18 17:35:31 - INFO    :: CP Server Thread-18 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:35:48 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item 12462 removed from recently added queue.
+2024-01-18 17:36:06 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item '' (12485) added to recently added queue.
+2024-01-18 17:36:07 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item 'Puss in Boots: The Last Wish (2022)' (12485) done processing metadata.
+2024-01-18 17:41:06 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Starting callback for library item '' (12485) after delay.
+2024-01-18 17:41:06 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Library item 'Puss in Boots: The Last Wish' (12485) added to Plex.
+2024-01-18 17:41:07 - DEBUG   :: Thread-3 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'on_created'.
+2024-01-18 17:41:07 - DEBUG   :: Thread-3 : Tautulli NotificationHandler :: Checking global notification conditions.
+2024-01-18 17:41:07 - DEBUG   :: Thread-3 : Tautulli NotificationHandler :: Global notification conditions evaluated to 'True'.
+2024-01-18 17:41:07 - DEBUG   :: ThreadPoolExecutor-0_0 : Added 1 items to the recently_added database table.
+2024-01-18 17:41:07 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:41:07 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '12485', '--namesList', 'David,Christian,Dale,Other'], action: created
+2024-01-18 17:41:07 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '12485', '--namesList', 'David,Christian,Dale,Other']
+2024-01-18 17:41:07 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 17:41:07 - DEBUG   :: Thread-62 : Tautulli Notifiers :: Subprocess returned with status code 9009.
+2024-01-18 17:41:07 - ERROR   :: Thread-62 : Tautulli Notifiers :: Script error: 
+  Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
+2024-01-18 17:41:07 - INFO    :: Thread-62 : Tautulli Notifiers :: Script notification sent.
+2024-01-18 17:43:45 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item '' (12508) added to recently added queue.
+2024-01-18 17:43:46 - DEBUG   :: Thread-27 : Tautulli TimelineHandler :: Library item 'Puss in Boots: The Last Wish (2022)' (12508) done processing metadata.
+2024-01-18 17:45:10 - WARNING :: CP Server Thread-21 : Failed to get image /library/metadata/12253/thumb, falling back to poster.
+2024-01-18 17:45:41 - INFO    :: CP Server Thread-22 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:45:41 - DEBUG   :: CP Server Thread-24 : Sending test Script notification.
+2024-01-18 17:45:41 - DEBUG   :: CP Server Thread-24 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 17:45:41 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:45:41 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: , arguments: ['--rating_key', '12508', '--namesList', 'David,Christian,Dale,Other'], action: test
+2024-01-18 17:45:41 - DEBUG   :: Thread-2 : Tautulli Notifiers :: No script selected for action 'test', exiting...
+2024-01-18 17:45:52 - INFO    :: CP Server Thread-26 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:45:52 - DEBUG   :: CP Server Thread-25 : Sending test Script notification.
+2024-01-18 17:45:52 - DEBUG   :: CP Server Thread-25 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 17:45:52 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:45:52 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '12508', '--namesList', 'David,Christian,Dale,Other'], action: test
+2024-01-18 17:45:52 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '12508', '--namesList', 'David,Christian,Dale,Other']
+2024-01-18 17:45:52 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 17:45:52 - ERROR   :: Thread-66 : Tautulli Notifiers :: Failed to run script: [WinError 2] The system cannot find the file specified
+2024-01-18 17:46:12 - INFO    :: CP Server Thread-21 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:46:17 - INFO    :: CP Server Thread-25 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:46:22 - INFO    :: CP Server Thread-23 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 1).
+2024-01-18 17:46:23 - DEBUG   :: CP Server Thread-19 : Sending test Script notification.
+2024-01-18 17:46:23 - DEBUG   :: CP Server Thread-19 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 17:46:23 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:46:23 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '12508', '--namesList', 'David,Christian,Dale,Other'], action: test
+2024-01-18 17:46:23 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '12508', '--namesList', 'David,Christian,Dale,Other']
+2024-01-18 17:46:23 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 17:46:23 - ERROR   :: Thread-67 : Tautulli Notifiers :: Failed to run script: [WinError 2] The system cannot find the file specified
+2024-01-18 17:48:45 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Starting callback for library item '' (12508) after delay.
+2024-01-18 17:48:45 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Library item 'Puss in Boots: The Last Wish' (12508) added to Plex.
+2024-01-18 17:48:45 - DEBUG   :: Thread-3 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'on_created'.
+2024-01-18 17:48:45 - DEBUG   :: Thread-3 : Tautulli NotificationHandler :: Checking global notification conditions.
+2024-01-18 17:48:45 - DEBUG   :: Thread-3 : Tautulli NotificationHandler :: Global notification conditions evaluated to 'True'.
+2024-01-18 17:48:45 - DEBUG   :: ThreadPoolExecutor-0_0 : Added 1 items to the recently_added database table.
+2024-01-18 17:48:46 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 17:48:46 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '12508', '--namesList', 'David,Christian,Dale,Other'], action: created
+2024-01-18 17:48:46 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '12508', '--namesList', 'David,Christian,Dale,Other']
+2024-01-18 17:48:46 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 17:48:46 - ERROR   :: Thread-68 : Tautulli Notifiers :: Failed to run script: [WinError 2] The system cannot find the file specified
+2024-01-18 20:49:40 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-18 20:49:40 - INFO    :: MainThread : [Bundle] Windows 10 (10.0.19045)
+2024-01-18 20:49:40 - INFO    :: MainThread : America/Chicago (UTC-0600)
+2024-01-18 20:49:40 - INFO    :: MainThread : Language en_US / Encoding cp1252
+2024-01-18 20:49:40 - INFO    :: MainThread : Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2024-01-18 20:49:40 - INFO    :: MainThread : SQLite 3.37.2
+2024-01-18 20:49:40 - INFO    :: MainThread : Program Dir: C:\Program Files\Tautulli
+2024-01-18 20:49:40 - INFO    :: MainThread : Config File: C:\Users\Dale & David\AppData\Local\Tautulli\config.ini
+2024-01-18 20:49:40 - INFO    :: MainThread : Database File: C:\Users\Dale & David\AppData\Local\Tautulli\tautulli.db
+2024-01-18 20:49:40 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-18 20:49:40 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-18 20:49:40 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2024-01-18 20:49:40 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2024-01-18 20:49:40 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-18 20:49:40 - INFO    :: MainThread : Tautulli is up to date
+2024-01-18 20:49:40 - INFO    :: Thread-1 : Tautulli PlexTV :: Requesting resources for server...
+2024-01-18 20:49:40 - INFO    :: Thread-1 : Tautulli PlexTV :: Pinging Plex.tv to refresh token.
+2024-01-18 20:49:40 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-18 20:49:41 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-18 20:49:41 - INFO    :: MainThread : Tautulli WebStart :: Web server authentication is enabled: Tautulli admin (username is 'Da********r') and Plex admin.
+2024-01-18 20:49:41 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-18 20:49:41 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-18 20:49:41 - INFO    :: Thread-1 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:49:41 - INFO    :: Thread-1 : Tautulli PlexTV :: Using user-defined URL.
+2024-01-18 20:49:41 - INFO    :: Thread-1 : Tautulli PlexTV :: Selected server: Poynter Plex (http://192.168.4.224:32400) (Windows - Version 1.32.8.7639-fb6452ebf)
+2024-01-18 20:49:41 - INFO    :: Thread-1 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:49:41 - DEBUG   :: Thread-1 : Tautulli Monitor :: Checking for active streams.
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Tautulli WebSocket :: Opening websocket.
+2024-01-18 20:49:41 - INFO    :: Thread-1 : Tautulli Users :: Requesting users list refresh...
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Tautulli WebSocket :: Ready
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Scheduled background task: Check GitHub for updates
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Scheduled background task: Optimize Tautulli database
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Scheduled background task: Backup Tautulli database
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Scheduled background task: Backup Tautulli config
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Scheduled background task: Refresh Plex server URLs
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Scheduled background task: Refresh users list
+2024-01-18 20:49:41 - INFO    :: Thread-15 : Scheduled background task: Refresh libraries list
+2024-01-18 20:49:41 - INFO    :: MainThread : [18/Jan/2024:20:49:41] ENGINE Serving on http://0.0.0.0:8181
+2024-01-18 20:49:41 - INFO    :: MainThread : Launching Windows system tray icon.
+2024-01-18 20:49:41 - INFO    :: MainThread : Added Tautulli to Windows system startup registry key.
+2024-01-18 20:49:42 - INFO    :: MainThread : Tautulli is ready!
+2024-01-18 20:49:42 - INFO    :: Thread-1 : Tautulli Users :: Users list refreshed.
+2024-01-18 20:49:42 - INFO    :: Thread-1 : Tautulli Libraries :: Requesting libraries list refresh...
+2024-01-18 20:49:42 - DEBUG   :: Thread-1 : Tautulli Pmsconnect :: No library data.
+2024-01-18 20:49:43 - INFO    :: Thread-1 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:49:43 - INFO    :: Thread-1 : Tautulli Libraries :: Libraries list refreshed.
+2024-01-18 20:49:46 - WARNING :: CP Server Thread-5 : Failed to get image /library/metadata/12253/thumb, falling back to poster.
+2024-01-18 20:49:50 - INFO    :: CP Server Thread-6 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:50:11 - ERROR   :: Thread-15 : Tautulli WebSocket :: [WinError 10054] An existing connection was forcibly closed by the remote host.
+2024-01-18 20:50:11 - INFO    :: Thread-15 : Tautulli WebSocket :: Disconnecting websocket...
+2024-01-18 20:50:11 - INFO    :: Thread-15 : Tautulli WebSocket :: Unable to get a response from the server, Plex server is down.
+2024-01-18 20:50:11 - DEBUG   :: Thread-15 : Tautulli WebSocket :: Scheduling Plex server down callback in 60 seconds.
+2024-01-18 20:50:11 - INFO    :: Thread-15 : Removed background task: Refresh Plex server URLs
+2024-01-18 20:50:11 - INFO    :: Thread-15 : Removed background task: Refresh users list
+2024-01-18 20:50:11 - INFO    :: Thread-15 : Removed background task: Refresh libraries list
+2024-01-18 20:50:11 - INFO    :: Thread-15 : Scheduled background task: Check for server response
+2024-01-18 20:50:11 - DEBUG   :: Thread-15 : Tautulli WebSocket :: Leaving thread.
+2024-01-18 20:50:41 - DEBUG   :: ThreadPoolExecutor-2_0 : Tautulli Monitor :: Checking for active streams.
+2024-01-18 20:50:41 - INFO    :: Thread-17 : Tautulli WebSocket :: Opening websocket.
+2024-01-18 20:50:41 - INFO    :: Thread-17 : Tautulli WebSocket :: Ready
+2024-01-18 20:50:41 - INFO    :: Thread-17 : Tautulli WebSocket :: The Plex Media Server is back up.
+2024-01-18 20:50:41 - DEBUG   :: Thread-17 : Tautulli WebSocket :: Cancelling scheduled Plex server down callback.
+2024-01-18 20:50:41 - INFO    :: Thread-17 : Scheduled background task: Refresh Plex server URLs
+2024-01-18 20:50:41 - INFO    :: Thread-17 : Scheduled background task: Refresh users list
+2024-01-18 20:50:41 - INFO    :: Thread-17 : Scheduled background task: Refresh libraries list
+2024-01-18 20:50:41 - INFO    :: Thread-17 : Removed background task: Check for server response
+2024-01-18 20:52:53 - ERROR   :: CP Server Thread-7 : Failed to access uri endpoint /servers/****************/sync_lists. Status code 404 Client Error: Not Found for url: https://plex.tv/servers/****************/sync_lists
+2024-01-18 20:52:53 - WARNING :: CP Server Thread-7 : Tautulli PlexTV :: Unable to parse XML for get_synced_items: 'NoneType' object has no attribute 'getElementsByTagName'.
+2024-01-18 20:52:53 - WARNING :: CP Server Thread-7 : Unable to retrieve data for get_sync.
+2024-01-18 20:52:56 - WARNING :: CP Server Thread-6 : Failed to get image /library/metadata/12253/thumb, falling back to poster.
+2024-01-18 20:53:01 - INFO    :: CP Server Thread-14 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:53:01 - INFO    :: CP Server Thread-13 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:53:45 - INFO    :: CP Server Thread-6 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:53:45 - INFO    :: CP Server Thread-8 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:53:46 - INFO    :: CP Server Thread-5 : Tautulli Config :: Writing configuration to file
+2024-01-18 20:53:46 - INFO    :: CP Server Thread-9 : Tautulli Config :: Writing configuration to file
+2024-01-18 21:01:26 - INFO    :: CP Server Thread-13 : Tautulli Notifiers :: Added new notification agent: Script (notifier_id 2).
+2024-01-18 21:01:40 - INFO    :: CP Server Thread-5 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 2).
+2024-01-18 21:02:48 - INFO    :: CP Server Thread-9 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 2).
+2024-01-18 21:03:04 - INFO    :: CP Server Thread-13 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 2).
+2024-01-18 21:03:04 - DEBUG   :: CP Server Thread-10 : Sending test Script notification.
+2024-01-18 21:03:04 - DEBUG   :: CP Server Thread-10 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 21:03:04 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 2.
+2024-01-18 21:03:04 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_Other.py, arguments: ['--rating_key', '12508'], action: test
+2024-01-18 21:03:04 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_Other.py', '--rating_key', '12508']
+2024-01-18 21:03:04 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 21:03:04 - ERROR   :: Thread-18 : Tautulli Notifiers :: Failed to run script: [WinError 2] The system cannot find the file specified
+2024-01-18 21:03:50 - WARNING :: CP Server Thread-14 : Unable to retrieve data for item_user_stats.
+2024-01-18 21:11:56 - INFO    :: CP Server Thread-12 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 2).
+2024-01-18 21:11:56 - DEBUG   :: CP Server Thread-13 : Sending test Script notification.
+2024-01-18 21:11:56 - DEBUG   :: CP Server Thread-13 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'test' (manual trigger).
+2024-01-18 21:11:56 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 2.
+2024-01-18 21:11:56 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_Other.py, arguments: ['--rating_key', '12508'], action: test
+2024-01-18 21:11:56 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_Other.py', '--rating_key', '12508']
+2024-01-18 21:11:56 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 21:11:56 - ERROR   :: Thread-19 : Tautulli Notifiers :: Failed to run script: [WinError 2] The system cannot find the file specified
+2024-01-18 21:18:45 - INFO    :: CP Server Thread-13 : Tautulli Notifiers :: Updated notification agent: Script (notifier_id 2).
+2024-01-18 21:19:31 - DEBUG   :: Thread-17 : Tautulli TimelineHandler :: Library item '' (12531) added to recently added queue.
+2024-01-18 21:19:32 - DEBUG   :: Thread-17 : Tautulli TimelineHandler :: Library item 'Puss in Boots: The Last Wish (2022)' (12531) done processing metadata.
+2024-01-18 21:20:31 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Starting callback for library item '' (12531) after delay.
+2024-01-18 21:20:31 - DEBUG   :: ThreadPoolExecutor-0_0 : Tautulli TimelineHandler :: Library item 'Puss in Boots: The Last Wish' (12531) added to Plex.
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Notifiers enabled for notify_action 'on_created'.
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Checking global notification conditions.
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Global notification conditions evaluated to 'True'.
+2024-01-18 21:20:31 - DEBUG   :: ThreadPoolExecutor-0_0 : Added 1 items to the recently_added database table.
+2024-01-18 21:20:31 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Preparing notification for notifier_id 1.
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Checking custom notification conditions for notifier_id 2.
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: {1} file | contains | 'other' > 'd:\1_movies\other movies\puss in boots the last wish (2022) [2160p] [4k] [web] [5.1] [yts.mx]\puss.in.boots.the.last.wish.2022.2160p.4k.web.x265.10bit.aac5.1-[yts.mx].mkv' > True
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Condition logic [blank]: {1} > True
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli NotificationHandler :: Custom conditions evaluated to 'True'. Conditions: [True].
+2024-01-18 21:20:31 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Preparing notification for notifier_id 2.
+2024-01-18 21:20:31 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_recently_added_based_on_filepath_final.py, arguments: ['--rating_key', '12531', '--namesList', 'David,Christian,Dale,Other'], action: created
+2024-01-18 21:20:31 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_recently_added_based_on_filepath_final.py', '--rating_key', '12531', '--namesList', 'David,Christian,Dale,Other']
+2024-01-18 21:20:31 - DEBUG   :: Thread-3 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 21:20:31 - ERROR   :: Thread-20 : Tautulli Notifiers :: Failed to run script: [WinError 2] The system cannot find the file specified
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Trying to run notify script: C:\Users\Dale & David\Documents\Plex Scripts\add_label_Other.py, arguments: ['--rating_key', '12531'], action: created
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Full script is: ['python', 'C:\\Users\\Dale & David\\Documents\\Plex Scripts\\add_label_Other.py', '--rating_key', '12531']
+2024-01-18 21:20:31 - DEBUG   :: Thread-2 : Tautulli Notifiers :: Executing script in a new thread.
+2024-01-18 21:20:31 - ERROR   :: Thread-21 : Tautulli Notifiers :: Failed to run script: [WinError 2] The system cannot find the file specified
